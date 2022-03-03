@@ -1,0 +1,253 @@
+:root{
+ --color-bg-gris:#f8f8f8;
+ --color-verde:#4caf50;
+}
+body{
+	font-family: "Lucida Grande" ;
+	font-size: 16px;
+	color: #888;
+}
+
+a{
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover{
+	color: var(--color-verde);
+}
+
+header{
+	background-color: #000;
+	padding: 20px 0;	
+}
+
+header  img{
+	width: 140px;
+}
+#hero{
+	text-align: center;
+	background-image: url("../img/business-2.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+}
+
+#hero h3{
+	font-size: 22px;
+	font-weight: 400;
+}
+
+#hero h1{
+	font-size: 60px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-weight: 400;
+}
+
+#hero .btn,
+.btn-engage{
+	padding: 15px 30px;
+	background-color: #4caf50;
+	border: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #fff;
+
+}
+
+#hero .btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.65);
+	padding: 160px 0;
+}
+
+.btn-engage:hover{
+	background-color: #333;
+	color: #fff;
+}
+
+.btn-engage{
+	padding: 12px 20px;
+}
+
+.section{
+	padding: 60px 0;
+}
+
+.bg-gris{
+ background-color: var(--color-br-gris);
+}
+
+#info h4{
+	color: #303030;
+	font-size: 20px;
+}
+
+#info p{
+	font-size: 17px;
+}
+
+.titulo{
+	font-size: 24px;
+	color: #303030;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.subtitulo{
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#our-services{
+	background-color: #f8f8f8;
+}
+
+#our-services .service-info{
+	background-color: #fff;
+	padding: 20px;
+}
+
+
+.service-info h4{
+	color: #303030;
+	font-size: 16px;
+}
+
+.service-info p{
+	font-size: 14px;
+}
+
+.service-info a{
+	color: #666;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+
+.service-info a:hover{
+	color: #4caf50;
+}
+
+
+#our-secret .titulo{
+	text-align: left;
+	font-size: 30px;
+	margin-top: 60px;
+}
+
+.lista-secret{
+	margin: 30px 0;
+	padding-left:15px;
+}
+
+.lista-secret li{
+	line-height: 2;
+	
+}
+#testimonials p{
+	background-color: #fff;
+	padding: 25px 30px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+#testimonials h4{
+	font-size:16px;
+	color: #686868;
+}
+
+#testimonials h5{
+	font-size: 15px
+}
+
+#testimonials h4,
+#testimonials h5{
+	padding-left: 30px;
+}
+
+
+#testimonials i{
+	text-align: center;
+	font-size: 45px;
+	color: var(--color-verde);
+}
+
+
+#numbers{
+	text-align: center
+}
+#numbers i{
+	font-size: 45px;
+	color: #999;
+	margin-bottom: 20px;
+}
+#numbers h3{
+	font-size: 50px;
+	color:#333;
+}
+#numbers p{
+	font-size: 22px;
+	color: #999;
+}
+
+#clients img{
+    filter: opacity(0.8);
+	transition: all 0.3s ease-in-out;
+}
+
+#clients img:hover{
+	filter: opacity(1);
+	transition: all 0.3s ease-in-out;
+}
+
+footer{
+	background-color: #191919;
+	color: #58606b;
+	padding: 20px 0;
+	font-size: 14px;
+}
+
+footer li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #171717;
+	display: block;
+	text-align: center;
+	border-radius: 100%;
+	color: #58606b;
+	font-size: 16px;
+}
+
+footer li a{
+	background-color: #000;
+	color: #fff;
+}
+
+footer li a.fb:hover{
+	background-color: #3b5998;
+}
+
+#title{
+	background-color: var(--color-bg-gris);
+		padding: 20px, 0;
+}
+
+#title h1{
+	font-size: #303030;
+}
+
+#tittle .breadcrumb{
+	margin-top: 10px;
+}
+
